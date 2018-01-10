@@ -21,3 +21,4 @@ Feature: [PA] Saloon PA
     When stopping the PA announcement
     And waiting for 30 seconds
     Then all PA interfaces should feedback PA is off
+    And all GOP PA interfaces should feedback PA is on
